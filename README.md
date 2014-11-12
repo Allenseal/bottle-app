@@ -1,4 +1,4 @@
-# Bottle App with UWSGI+Nginx Quick Build
+# Bottle with UWSGI+Nginx Quick Build
 
 Building bottle application with api samples and sqlalchemy object.
 

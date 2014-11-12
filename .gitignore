@@ -1,0 +1,6 @@
+*.DS_Store
+*.swp
+thumb.db
+*.pyc
+bottle-build/web-app/logs/*
+*.idea

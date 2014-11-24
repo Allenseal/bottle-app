@@ -3,10 +3,11 @@ from sqlalchemy.orm import sessionmaker
 from tables.base import *
 
 class DBTool:
-    user = 'test'
-    password = 'test'
+    user = 'webapp'
+    password = 'webapp@www'
     host = 'localhost'
-    dbname = 'test_db'
+    dbname = 'Webapp'
+    
     def get_engine(self):
         engine = create_engine('mysql+mysqldb://'+self.user+':'+ self.password + '@' + \
                                 self.host+'/'+self.dbname)

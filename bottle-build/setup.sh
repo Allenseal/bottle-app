@@ -1,12 +1,12 @@
 HOME_PATH=/home/bottle
 
 cp -r $HOME_PATH/bottle-build/web-app $HOME_PATH
-
 sudo chgrp -R www $HOME_PATH/web-app
-
 sudo chmod g+rw $HOME_PATH/web-app
-
 mkdir $HOME_PATH/web-app/logs
+
+cd $HOME_PATH/bottle-build
+mysql -u root -p < schema.sql
 
 # Set init.d
 sudo cp $HOME_PATH/bottle-build/init.d/* /etc/init.d

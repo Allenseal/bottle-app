@@ -7,6 +7,7 @@ Building bottle application with api samples and sqlalchemy object.
   1. Run commands with user who have `sudo`.
 
         sh install_server.sh
+     Please check whether MySQL tables was created or not 
      
   2. You can find an user 'bottle'.
      Bottle application is in `/home/bottle/web-app`.
